@@ -31,7 +31,7 @@ def main():
             output_audio, output_sample_rate = processor.process(input_audio, sample_rate)
 
             # 프로세싱된 오디오 저장
-            output_audio_path = "processed_audio.wav"
+            output_audio_path = "audio_files/processed_audio.wav"
             write_audio(output_audio_path, output_audio, output_sample_rate)
 
             # Step 4: 다운로드 버튼 제공
